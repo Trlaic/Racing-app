@@ -2,15 +2,14 @@
 
 .container {
     display: flex;
-    flex-direction: row;
     height: 100vh;
     color: $color-primary--light;
 
-    &--left {
+    &_left {
         flex-basis: 25%;
     }
 
-    &--right {
+    &_right {
         flex-basis: 75%;
     }
 }
