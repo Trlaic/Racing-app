@@ -3,13 +3,13 @@
 .container {
     display: flex;
     height: 100vh;
-    color: $color-primary--light;
 
     &_left {
-        flex-basis: 25%;
+        background-color: $-color-gray--lighter;
     }
 
     &_right {
-        flex-basis: 75%;
+        flex-basis: 60%;
+        flex-grow: 1;
     }
 }
