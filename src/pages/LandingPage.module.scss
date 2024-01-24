@@ -3,10 +3,7 @@
 .container {
     display: flex;
     height: 100vh;
-
-    &_left {
-        background-color: $-color-gray--lighter;
-    }
+    background-color: $-color-gray--lighter;
 
     &_right {
         flex-basis: 60%;

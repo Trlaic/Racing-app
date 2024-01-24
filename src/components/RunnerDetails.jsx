@@ -6,20 +6,20 @@ export default function RunnerDetails() {
         <div className={styles.container}>
             <h1 className={styles.heading}>Runner details</h1>
             <p className={styles.paragraph}>*You can add max 10 participants</p>
-            <form className='form'>
-                <div>
+            <form>
+                <div className={styles.input_container}>
                     <label className={styles.label} htmlFor="runner-name">Name</label>
-                    <input className={styles.input} type="text" id="runner-name" placeholder="Usain Bolt"/>
+                    <input className={styles.input} type="text" id="runner-name" placeholder="Usain Bolt" />
                 </div>
-                <div>
+                <div className={styles.input_container}>
                     <label className={styles.label} htmlFor="runner-speed">Speed</label>
-                    <input className={styles.input} type="number" id="runner-speed" placeholder='10 km/h'/>
+                    <input className={styles.input} type="number" id="runner-speed" placeholder='10 km/h' />
                 </div>
-                <div>
+                <div className={styles.input_container}>
                     <label className={styles.label} htmlFor="runner-start-time">Start time</label>
-                    <input className={styles.input} type="time" id="runner-start-time"/>
+                    <input className={styles.input} type="time" id="runner-start-time" />
                 </div>
-                <button>+ Add Runner</button>
+                <button className="button button--black"><span className={styles.span_symbol}>+</span><span className={styles.span_text}>Add Runner</span></button>
             </form>
         </div>
     )
