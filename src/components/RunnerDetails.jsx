@@ -1,6 +1,5 @@
 import styles from './RunnerDetails.module.scss';
 
-
 export default function RunnerDetails() {
     return (
         <div className={styles.container}>

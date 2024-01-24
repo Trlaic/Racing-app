@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    background-color: white;
+    min-height: 80vh;
+
+    .heading_2 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: .6rem;
+    }
+}
