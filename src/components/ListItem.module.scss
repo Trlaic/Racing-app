@@ -1,0 +1,30 @@
+@import '../variables.scss';
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3rem;
+    justify-items: center;
+    margin-bottom: .5rem;
+    background-color: #ececec;
+    font-weight: 600;
+}
+
+.template {
+    min-height: 50vh;
+}
+
+.button_container {
+    position: absolute;
+    bottom: 2.5rem;
+
+    left: 3rem;
+    right: 3rem;
+    text-align: right;
+    padding-top: 1.5rem;
+    border-top: 2px $-color-gray--lighter solid;
+}
+
+.button_text {
+    transform: skewX(20deg);
+}

@@ -1,6 +1,7 @@
 @import '../variables.scss';
 
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -11,8 +12,24 @@
 
     .heading_2 {
         font-size: 2rem;
+        font-weight: 600;
         text-transform: uppercase;
         margin: 0;
         margin-top: .6rem;
+    }
+
+    &_list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        margin-top: 1.5rem;
+
+        &>* {
+            margin-bottom: .5rem;
+        }
+    }
+
+    .paragraph {
+        margin-bottom: 0;
     }
 }
